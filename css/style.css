@@ -517,7 +517,7 @@ footer ul li a:hover {
 
     /****** HEADER SECTION ******/
     header {
-        height: 52vh;
+        height: 52vh fit-content;
         margin-bottom: 4rem;
     }
 
@@ -526,10 +526,27 @@ footer ul li a:hover {
         padding-bottom: 3rem;
     }
 
-    /* CATEGORIES SECTION */
+    /****** CATEGORIES SECTION ******/
     .categories {
-        height: auto;
-        width: 100%;
+        height: fit-content;
+    }
+
+    .categories__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .categories__left {
+        margin-right: 0;
+    }
+
+    /****** POPULAR COURSES SECTION ******/
+    .courses {
+        margin-top: 0;
+    }
+
+    .courses__container {
+        grid-template-columns: 1fr 1fr;
     }
 
 }
