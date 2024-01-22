@@ -8,9 +8,9 @@ I will welcome any and all contributions. Here is how you can help:
 - Contribute Code: If you are a developer and would love to contribute, I would definitely appreciate it. 
 
 ## Tools Used:
-HTML5
-CSS3
-JavaScript
-SwiperJS CDN - For sliding Features
+- HTML5
+- CSS3
+- JavaScript
+- SwiperJS CDN - For sliding Features
 
 
