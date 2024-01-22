@@ -4,8 +4,8 @@ Welcome to my project! This is an Educational Tech Website made using HTML, CSS 
 
 ## Contributions
 I will welcome any and all contributions. Here is how you can help:
-Report Bugs: If you encounter any bugs or some features are not responsding, let me know.
-Contribute Code: If you are a developer and would love to contribute, I would definitely appreciate it. 
+- Report Bugs: If you encounter any bugs or some features are not responsding, let me know.
+- Contribute Code: If you are a developer and would love to contribute, I would definitely appreciate it. 
 
 ## Tools Used:
 HTML5
