@@ -3,12 +3,12 @@
 Welcome to my project! This is an Educational Tech Website made using HTML, CSS and JavaScript. The Purpose of the website was to test my knowledge around Frontend Web Development, and to also understand the concept behind building multipage websites. I also used SwiperJS CDN to call the Slider feature for the Student Testimonials section. *You can read about the SwiperJS API here:* https://swiperjs.com/swiper-api
 ### Block Element Modifier; 
 Block Element Modifier (BEM) is a methodology and naming convention for writing CSS and HTML code in a way that promotes better organization, maintainability, and scalability in large web projects. BEM was introduced as a solution to the problem of naming CSS classes ambiguously or inconsistently, which can lead to styling conflicts and difficulties in understanding and maintaining code. 
-*The BEM methodology divides components into three main parts:*
-### Block: A standalone entity that is meaningful on its own. Blocks are the top-level components on a page and represent reusable UI elements. Examples of blocks might include header, button, menu, etc.
-### Element: A part of a block that has no standalone meaning and is semantically tied to its block. Elements are typically nested within blocks and represent parts of the block. For example, within a header block, you might have elements like logo, navigation, search, etc.
-### Modifier: A flag that alters the appearance or behavior of a block or element. Modifiers are optional and provide variations to blocks or elements without changing their base styles. For example, you might have modifiers like large, small, blue, active, etc.
+### *The BEM methodology divides components into three main parts:*
+- Block: A standalone entity that is meaningful on its own. Blocks are the top-level components on a page and represent reusable UI elements. Examples of blocks might include header, button, menu, etc.
+- Element: A part of a block that has no standalone meaning and is semantically tied to its block. Elements are typically nested within blocks and represent parts of the block. For example, within a header block, you might have elements like logo, navigation, search, etc.
+- Modifier: A flag that alters the appearance or behavior of a block or element. Modifiers are optional and provide variations to blocks or elements without changing their base styles. For example, you might have modifiers like large, small, blue, active, etc.
 
-*Aspects of CSS covered:*
+### *Aspects of CSS covered:*
 - CSS Grid & Flexbox
 - CSS Units for Responsive Design(VH - view height, VW - View Width, FR - Fraction, % - Percentage)
 - CSS Transitions and Animations
