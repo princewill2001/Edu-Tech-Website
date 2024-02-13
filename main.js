@@ -6,7 +6,7 @@ window.addEventListener("scroll", () => {
     .classList.toggle("window-scroll", window.scrollY > 0); // Immediately invokes function expression to scroll the navbar
 });
 
-// SHOW/HIDE FAQ ANSWER //
+// SHOW / HIDE FAQ ANSWER //
 const faqs = document.querySelectorAll(".faq");
 
 faqs.forEach((faq) => {
@@ -23,7 +23,7 @@ faqs.forEach((faq) => {
   });
 });
 
-// SHOW/HIDE TABLET NAVBAR //
+// SHOW / HIDE TABLET NAVBAR //
 const menu = document.querySelector(".nav__menu");
 const menuBtn = document.querySelector("#open-menu-btn");
 const closeBtn = document.querySelector("#close-menu-btn");
@@ -34,6 +34,7 @@ menuBtn.addEventListener("click", () => {
   menuBtn.style.display = "none";
 });
 
+// CLOSE NAV MENU //
 const closeNav = () => {
   menu.style.display = "none";
   closeBtn.style.display = "none";

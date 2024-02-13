@@ -115,7 +115,7 @@ img {
     color: var(--color-white);
 }
 
-/* ************** NAVBAR ************** */
+/*************** NAVBAR ***************/
 nav {
     background: transparent;
     width: 100vw;
@@ -125,13 +125,13 @@ nav {
     z-index: 11;
 }
 
-/* CHANGE NAVBAR STYLES ON SCROLL USING JAVASCRIPT */
+/**************** CHANGE NAVBAR STYLES ON SCROLL USING JAVASCRIPT ****************/
 .window-scroll {
     background: var(--color-primary);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-/* END OF CHANGE NAVBAR STYLES ON SCROLL USING JAVASCRIPT */
+/**************** END OF CHANGE NAVBAR STYLES ON SCROLL USING JAVASCRIPT ****************/
 
 .nav__container {
     height: 100%;
@@ -549,4 +549,85 @@ footer ul li a:hover {
         grid-template-columns: 1fr 1fr;
     }
 
+    /*********** FREQUENTLY ASKED QUESTIONS SECTION *********/
+    .faqs__container {
+        grid-template-columns: 1fr;
+    }
+
+    .faq {
+        padding: 1.5rem;
+    }
+
+    /*********** FOOTER *********/
+    .footer__container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*************** MEDIA QUERIES(MOBILE) **********/
+    @media screen and (max-width: 600px) {
+        .container {
+            width: var(--container-width-sm);
+        }
+    }
+
+    /************ NAVBAR ********/
+    .nav__menu {
+        right: 3%;
+    }
+
+    /*********** HEADER *********/
+    header {
+        height: 100vh;
+    }
+
+    .header__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .header__left p {
+        margin-bottom: 1.3rem;
+    }
+
+    /*********** CATEGORIES *********/
+    .categories__right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+
+    .category {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .category__icon {
+        margin-top: 4px;
+        display: inline-block;
+    }
+
+    /*********** POPULAR COURSES SECTION *********/
+    .courses__container {
+        grid-template-columns: 1fr;
+    }
+
+    /*********** TESTIMONIALs SECTION *********/
+    .testimonial__body {
+        padding: 1.2rem;
+    }
+
+    /*********** FOOTER *********/
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .footer__1 p {
+        margin: 1rem auto;
+    }
+
+    .footer__socials {
+        justify-content: center;
+    }
 }
